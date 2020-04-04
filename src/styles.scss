@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import "~bulma/bulma";
+
+.app-hero {
+    background: slategrey linear-gradient(45deg, seashell, slategrey) no-repeat;
+
+    .level {
+        justify-content: center;
+        margin-bottom: -4.2em;
+
+        .field {
+            justify-content: center;
+        }
+        
+        input[type='text'] {
+            width: 24em;
+        }
+    }
+}
+
+.image-results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.image-item {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+    
+    img {
+        max-width: 200px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media(max-width: $tablet){
+    .image-results {
+        .image {
+            width: 100%;
+            text-align: center;
+        }
+
+        .image-item {
+            width: 100%;
+            img {
+                display: inline-block;
+            }
+        }
+    }
+}
