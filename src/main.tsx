@@ -79,7 +79,7 @@ class App extends React.Component<{}, IAppState> {
                     <div className="notification is-warning is-light">
                         This is an implementation of the freeCodeCamp image search project.
                         Built using React, SCSS, Bulma CSS library and an integration with Bing image search API.
-                        You can find the code here on <a href="#">GitHub</a>.
+                        You can find the code here on <a href="https://github.com/GuyNumber9/project-image-search">GitHub</a>.
                     </div>
                     <h1 className="title">Image Search</h1>
                     <h2 className="subtitle">powered by Bing</h2>
